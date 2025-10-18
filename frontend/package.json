@@ -4,8 +4,7 @@
   "description": "Frontend for Humble AI Chatbot",
   "type": "module",
   "scripts": {
-    "build": "echo 'Frontend is static, no build needed'",
-    "start": "node server.js",
+    "start": "python -m http.server 3005 --directory public",
     "dev": "python -m http.server 3005 --directory public"
   },
   "keywords": [
@@ -14,9 +13,6 @@
     "frontend"
   ],
   "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+  "license": "MIT"
 }
 
