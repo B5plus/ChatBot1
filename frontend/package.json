@@ -4,7 +4,7 @@
   "description": "Frontend for Humble AI Chatbot",
   "type": "module",
   "scripts": {
-    "start": "python -m http.server 3005 --directory public",
+    "start": "npx http-server public -p $PORT",
     "dev": "python -m http.server 3005 --directory public"
   },
   "keywords": [
@@ -13,6 +13,9 @@
     "frontend"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }
 
