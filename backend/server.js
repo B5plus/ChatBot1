@@ -17,8 +17,6 @@ const AI_PROVIDER = process.env.AI_PROVIDER || "openai";
 // Middleware
 app.use(cors());
 app.use(express.json());
-// Serve frontend files from the frontend folder
-app.use(express.static(path.join(__dirname, "../frontend/public")));
 
 // Initialize AI Service
 const aiService = new AIService(AI_PROVIDER, {
