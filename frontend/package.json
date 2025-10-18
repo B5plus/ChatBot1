@@ -4,6 +4,7 @@
   "description": "Frontend for Humble AI Chatbot",
   "type": "module",
   "scripts": {
+    "build": "echo 'Frontend is static, no build needed'",
     "start": "npx http-server public -p $PORT",
     "dev": "python -m http.server 3005 --directory public"
   },
