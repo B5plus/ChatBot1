@@ -3,7 +3,7 @@ const chatInput = document.getElementById("chatInput");
 const chatSendBtn = document.getElementById("chatSendBtn");
 const chatMessages = document.getElementById("chatMessages");
 let currentChatId = null;
-const apiBaseUrl = "https://chat-bot2-ashen.vercel.app";
+const apiBaseUrl = "http://localhost:3001";
 
 // Clear welcome message on first message
 let welcomeCleared = false;
